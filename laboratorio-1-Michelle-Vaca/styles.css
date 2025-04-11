@@ -1,0 +1,15 @@
+.fotoMichelle {
+    width: 120px;
+    max-width: 120px;
+    float: right;
+}
+
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: grey;
+}
+
+#honorific {
+    font-size: medium;
+}
