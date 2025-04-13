@@ -1,15 +1,73 @@
 .fotoMichelle {
-    width: 120px;
-    max-width: 120px;
+    width: 150px;
+    max-width: 150px;
     float: right;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 body{
     padding-left: 200px;
     padding-right: 200px;
-    background-color: grey;
+    background-image: url('./Fotos/Fondo.png');
+    background-size: cover;
+    height: 100vh;
 }
 
 #honorific {
     font-size: medium;
 }
+
+
+.Navbar{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    height: 45px;
+    margin-top: 20px;
+}
+
+.InfoConct{
+    border-right: 30%;
+    margin-top: 20px;
+    margin-left: 13px;
+    border-radius: 10px;
+}
+
+.NombreApellido{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 28px;
+}
+
+.container{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* espacio entre ícono y texto */
+    margin-bottom: 8px;
+  }
+.Experiencia{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+  
+a:hover {
+    color: #fd67c6; 
+}
+  
+  
